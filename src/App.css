@@ -1,0 +1,44 @@
+body {
+  margin: 3rem 2rem;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.cell.alive {
+  background-color: black;
+}
+
+.borderedBox {
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.borderedGrid {
+  padding: .3rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
