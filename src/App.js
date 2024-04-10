@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Dashboard from './Dashboard';
-import Playground from './Playground';
+import Playground, { createGrid } from './Playground';
 
 function App() {
   const [grids, setGrids] = useState([]);
