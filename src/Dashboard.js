@@ -15,7 +15,6 @@ function Dashboard({ grids, removeGrid, addGrid, setGridDetails }) {
 
     const handleClose = () => {
         setOpen(false);
-        console.log('clodes');
     };
 
     return (
